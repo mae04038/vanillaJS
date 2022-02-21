@@ -1,0 +1,35 @@
+.hidden {
+  display: none;
+}
+body {
+  position: relative;
+}
+#clock,
+#quote,
+#weather {
+  position: absolute;
+}
+#clock {
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+}
+#quote {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  padding: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#weather {
+  color: beige;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-weight: 600;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
